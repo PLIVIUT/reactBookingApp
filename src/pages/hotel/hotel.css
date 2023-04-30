@@ -1,0 +1,158 @@
+.hotelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hotelWrapper {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hotelName {
+    font-size: 35px;
+}
+
+.hotelAddress {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.taxiPickup {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.taxiPickup>span {
+    background-color: #246936;
+    color: azure;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.placeTaxi {
+    margin-bottom: 10px;
+    font-size: 15px;
+    height: 20px;
+    display: flex;
+}
+
+
+.hotelPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.hotelPhotoWrapper {
+    width: 33%;
+}
+
+.hotelPhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hotelDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.hotelText {
+    flex: 3;
+    background-color: #246936;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hotelHighlights {
+    flex: 1;
+}
+
+.hotelHighlights {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4f8b5f;
+    color: azure;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.reserveButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reserveButton>button {
+    width: max-content;
+    padding: 5px;
+    border: none;
+    background-color: #adb9b0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: azure;
+}
+
+.imgSlider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.192);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.imgSliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg {
+    width: 60%;
+    height: 60vh;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: azure;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 20px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
